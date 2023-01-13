@@ -1,16 +1,19 @@
 # Installing VScode 
-1. I visited [Link](https://code.visualstudio.com/)
-2. I clicked this Download button in the top right corner of the window.
-3. Last, I downloaded the Mac version for my Mac. 
+I visited [code.visualstudio.com](https://code.visualstudio.com/)
+
+![Image](https://user-images.githubusercontent.com/57383573/212238996-beeec690-831f-4965-a254-632039eb4e35.png)
+
+Next, I clicked this Download button in the top right corner of the window.
+
+Last, I downloaded the Mac version for my Mac. 
 
 # Remotely Connecting on Mac
-1. I opened a terminal in VSCode (Ctrl/Command + `)
-![Image](https://user-images.githubusercontent.com/57383573/212238996-beeec690-831f-4965-a254-632039eb4e35.png)
-2. I entered this command but with the zz replaced by the letters in your course specific account. 
+I opened a terminal in VSCode (Ctrl/Command + `)
+I entered this command but with the zz replaced by the letters in your course specific account. 
 ```
 ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
-3. I then got a message like this because this was my first time connecting.
+I then got a message like this because this was my first time connecting.
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
@@ -34,11 +37,15 @@ Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
 
 You are using 0% CPU on this system
 ```
-![Image](
+![Image](https://user-images.githubusercontent.com/57383573/212238987-8ffa2ab3-799b-4d1a-9122-34fea666d9df.png)
+
 All done! I connected my terminal to a computer in the CSE basement, and all of my commands would run on that computer. The *client* was my computer and the *server* was the computer in the basement.
 
 
 # Trying Some Commands
-1. First, I opened up the terminal using this command: CTRL + `
-2. To run the following command, I typed ```cd ~``` This was the output:
-3. I tried several more commands, finding that i could not access the directory of another group member
+First, I opened up the terminal using this command: ```CTRL + ` ```
+To run the following command, I typed ```cd ~```. This was the output:
+
+![Image](https://user-images.githubusercontent.com/57383573/212240806-7e7c73b6-026f-4834-97d8-8fb40576a60a.png)
+
+I ran several other commands and found that when I tried to print the list of another user, access was denied.
