@@ -5,6 +5,7 @@
 
 # Remotely Connecting on Mac
 1. I opened a terminal in VSCode (Ctrl/Command + `)
+![Image](https://user-images.githubusercontent.com/57383573/212238996-beeec690-831f-4965-a254-632039eb4e35.png)
 2. I entered this command but with the zz replaced by the letters in your course specific account. 
 ```
 ssh cs15lwi23zz@ieng6.ucsd.edu
@@ -17,7 +18,6 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 Type ```yes```, press enter, give your password. Here's what the interaction should look like.
-![Image](https://drive.google.com/file/d/1qltGxKMhLFQcYon05d-w4Cx11UxAU-eF/view) fix this babes
 ```
 # On your client
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
@@ -33,15 +33,8 @@ quota: No filesystem specified.
 Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
 
 You are using 0% CPU on this system
-
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   23:25:01   0  0.08,  0.17,  0.11
-ieng6-202   23:25:01   1  0.09,  0.15,  0.11
-ieng6-203   23:25:01   1  0.08,  0.15,  0.11
-
-Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ```
+![Image](
 All done! I connected my terminal to a computer in the CSE basement, and all of my commands would run on that computer. The *client* was my computer and the *server* was the computer in the basement.
 
 
