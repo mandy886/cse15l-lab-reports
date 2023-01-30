@@ -49,3 +49,10 @@ To run the following command, I typed ```cd ~```. This was the output:
 ![Image](https://user-images.githubusercontent.com/57383573/212240806-7e7c73b6-026f-4834-97d8-8fb40576a60a.png)
 
 I ran several other commands and found that when I tried to print the list of another user, access was denied.
+```cd ~```
+```cd```
+```ls -lat```
+```ls -a```
+```ls /home/linux/ieng6/cs15lwi23/cs15lwi23aus``` Permission was denied for the previous command because the directory belonged to another group member, not me.
+```cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```
+```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
