@@ -49,11 +49,11 @@ To run the following command, I typed ```cd ~```. This was the output:
 ![Image](https://user-images.githubusercontent.com/57383573/212240806-7e7c73b6-026f-4834-97d8-8fb40576a60a.png)
 
 I ran several other commands such as
-```cd ~```
-```cd```
-```ls -lat```
-```ls -a```
-```ls /home/linux/ieng6/cs15lwi23/cs15lwi23aus``` 
-```cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```
+```cd ~```,
+```cd```,
+```ls -lat```,
+```ls -a```,
+```ls /home/linux/ieng6/cs15lwi23/cs15lwi23aus``` ,
+```cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```, and
 ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 Permission was denied for the command, ```ls /home/linux/ieng6/cs15lwi23/cs15lwi23aus```, because the directory belonged to another group member, not me. ```ls -lat``` had an interesting output which listed out the contents of my profile's working directory. It was also interesting to see how ```cd``` and ```cd ~``` produced empty outputs. This is because change directory was not called to change the directory.
