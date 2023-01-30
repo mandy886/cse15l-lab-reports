@@ -5,7 +5,7 @@ I visited [code.visualstudio.com](https://code.visualstudio.com/)
 
 Next, I clicked this Download button in the top right corner of the window.
 
-Last, I downloaded the Mac version for my Mac. 
+Last, I downloaded the Mac version for my Mac.
 
 # Remotely Connecting on Mac
 I opened a terminal in VSCode (Ctrl/Command + `)
@@ -49,7 +49,6 @@ To run the following command, I typed ```cd ~```. This was the output:
 ![Image](https://user-images.githubusercontent.com/57383573/212240806-7e7c73b6-026f-4834-97d8-8fb40576a60a.png)
 
 I ran several other commands such as
-```cd ~```,
 ```cd```,
 ```ls -lat```,
 ```ls -a```,
