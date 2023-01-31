@@ -12,10 +12,10 @@ public String handleRequest(URI url) {
     return "404 Not Found!";
 }
 ```
-"Hello" and "How are you" are queries of separate url arguments that I passed in for``handleRequest(URI url)```. This changes the value of str when the URLHandler takes this fragment of the URL after ```?s=``` as input and responds by concatenating the it onto ```str``` that's displayed on the web page.
+"Hello" and "How are you" are queries of separate url arguments that I passed in for```handleRequest(URI url)```. This changes the value of str when the URLHandler takes this fragment of the URL after ```?s=``` as input and responds by concatenating the it onto ```str``` that's displayed on the web page.
 ![Image](https://user-images.githubusercontent.com/57383573/215687156-b207e6e4-0eae-4007-99b3-7fe1e1cde555.png)
 
-Next, I query part of the argument witb "Mandy was here". This used the URLHandler in the same way to concatenate "Mandy was here" onto ```str```. 
+Next, I replaced the query part of the argument with "Mandy was here". This used the URLHandler in the same way to concatenate "Mandy was here" onto ```str```. 
 ![Image](https://user-images.githubusercontent.com/57383573/215687167-25f0b063-c100-4d48-abde-e22ccdc7c5ad.png)
 
 # Part 2
