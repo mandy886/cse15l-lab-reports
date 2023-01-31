@@ -1,6 +1,7 @@
 # Part 1
 I called this method (for both screenshots) to add specified messages if directed to do so by the path.
 ```
+String str = "";
 public String handleRequest(URI url) {
     if (url.getPath().equals("/add-messages")) {
         String[] parameters = url.getQuery().split("=");
@@ -8,6 +9,7 @@ public String handleRequest(URI url) {
             str = str + parameters[1] + "\n";
             return String.format("%s", str);
         }
+        return str;
     }
 }
 ```
