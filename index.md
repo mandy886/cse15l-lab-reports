@@ -9,7 +9,6 @@ public String handleRequest(URI url) {
             return String.format("%s", str);
         }
     }
-    return "404 Not Found!";
 }
 ```
 "Hello" and "How are you" are queries of separate url arguments that I passed in for```handleRequest(URI url)```. This changes the value of str when the URLHandler takes this fragment of the URL after ```?s=``` as input and responds by concatenating the it onto ```str``` that's displayed on the web page.
