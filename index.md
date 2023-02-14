@@ -1,5 +1,5 @@
 # Part 1
-I called this method (for both screenshots) to add specified messages if directed to do so by the path.
+I called the method ```handleRequest(URI url)``` (for both screenshots) to add specified messages if directed to do so by the path.
 ```
 String str = "";
 public String handleRequest(URI url) {
